@@ -49,6 +49,7 @@ An example for Alchemy provider:
 
 ## Migration
 <b>Warning: Make a copy of your working folder before applying this patch</b>
+
 This patch basically overwrites the provider module of Ethersjs, applying a patch is basically moving the three Javascript files from `Chainstack_patch` folder to `./node_modules/@ethersproject/providers/lib`.
 ### Something to take note
 - The blockchain is deeply binded with the Chainstack endpoint so the network type parameter doesn't really do anything. It can be set to any string or a null value.
