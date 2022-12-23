@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "ethers": "^5.7.2"
+    },
+    "scripts": {
+        "patch": "cp ./Chainstack_patch/{alchemy-provider.js,infura-provider.js,ankr-provider.js} ./node_modules/@ethersproject/providers/lib"
+    }
+}
